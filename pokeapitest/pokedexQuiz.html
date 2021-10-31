@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Pokedex Quiz</title>
+  </head>
+  <body>
+    <h1>Pokedex Quiz</h1>
+    <div id="poke-container">
+		<div id="poke-name"></div>
+		<div id="poke-img"></div>
+    <div id="correct_pokedex_id" class="correct_pokedex_id"></div>
+
+    <form name = "answer">
+      <input type="text" name="pokedex_id" id="pokedex_id">
+      <input type="button" value="決定" onclick="clickAnswer()">  
+      <input type="button" value="降参" onclick="clickSurrender()">  
+    </form>
+
+    <div id ="result"></div>
+    
+
+    <script src="js/pokedexQuiz.js"></script>
+  </body>
+</html>
